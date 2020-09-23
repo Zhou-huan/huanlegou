@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 1.引入重置样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 2.引入公用样式表 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 3.引入首页样式表 -->
+    <link rel="stylesheet" href="./css/ordercenter.css">
+
+    <!-- 5.引入js -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/ordercenter.js"></script>
+
+</head>
+
+<body>
+    <!-- 1.header开始 -->
+    <div id="header" class="fliudbox clearfix">
+        <!-- 欢迎 -->
+        <div class="welcome bgc1010">
+            <!-- 版心 -->
+            <div class="container clearfix ce6e6">
+                <p class="fl pl208">legochina.cn</p>
+                <div class="fr">
+                    欢迎光临
+                    <a href="index.html" class="cf60">乐购</a>，请
+                    <a href="login.html" class="ce6e6">登陆</a>\
+                    <a href="register.html" class="cf60">注册</a>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./imgs/logo1.jpg" alt="" width="205px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 导航部分 -->
+        <div class="container vipnav">
+            <span class="pl208  c666 font20 fl">乐我所乐，我的vip</span>
+            <div class="clearfix fr">
+                <a href="vipcenter.html">首页</a>
+                <a href="ordercenter.html" class="on">我的订单</a>
+                <a href="home.html">会员特权</a>
+                <a href="shopcar.html">购物车</a>
+            </div>
+        </div>
+    </div>
+    <!-- 中间主体部分 -->
+    <div id="main" class="container clearfix mt10">
+        <!-- 左边内容 -->
+        <div class="mainLeft fl">
+            <div class="vipLogin ptb15 clearfix">
+                <img src="imgs/touxiang.jpg" alt="" class="fl mlr15 border1">
+                <div class="fl ptb1lr8">
+                    <a href="login.html" class="c333 font16">齐天大圣</a>
+                    <br>
+                    <a href="#" class="c666">查看你的特权</a>
+                </div>
+                <p class="fl mt40 c333 leDou">我的乐豆：520个</p>
+                <p class="fl mt40 c333 youHui">我的优惠劵：5张护身符</p>
+                <img src="imgs/vRight1.jpg" alt="" class="mt40 fl" width="116">
+                <h4 class="mt20 fl">10个礼包（未领取）</h4>
+                <img src="imgs/vRight2.jpg" alt="" class="mt20 fl" width="116">
+                <p class="fl mt10 mb40">
+                    <a href="#">
+                        <img src="imgs/order1.jpg" alt="" width="33px">
+                    </a>
+                    <a href="#">
+                        <img src="imgs/order2.jpg" alt="" width="33px">
+                    </a>
+                    <a href="#">
+                        <img src="imgs/order3.jpg" alt="" width="33px">
+                    </a>
+                    <br>
+                    <a href="#">
+                        <img src="imgs/order4.jpg" alt="" width="33px">
+                    </a>
+                    <a href="#">
+                        <img src="imgs/order5.jpg" alt="" width="33px">
+                    </a>
+                </p>
+                <div class="mt20 tcenter">
+                    <a href="#" class="speimg">
+                        <img src="imgs/vip1.jpg" alt="" width="280">
+                    </a>
+                    <a href="#" class="speimg">
+                        <img src="imgs/vip2.jpg" alt="" width="280">
+                    </a>
+                    <a href="#" class="speimg">
+                        <img src="imgs/vip3.jpg" alt="" width="280">
+                    </a>
+                    <a href="#" class="speimg">
+                        <img src="imgs/vip4.jpg" alt="" width="280">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 右边内容 table列表-->
+        <div class="mainRight fr">
+            <table class="font16 c333 tI15">
+                <tr class="bgf9f9 leaderTr">
+                    <td  width="150" class="cf60 font20">订单列表</td>
+                    <td width="300">待收款<span class="cf60">1</span></td>
+                    <td width="150">待收货<span class="cf60">3</span></td>
+                    <td width="300">待评价<span class="cf60">4</span></td>
+                </tr>
+                <tr>
+                    <td  width="150" class="cf60 font18" colspan="4">全部订单（6）</td>
+                </tr>
+                <tr class="bgf9f9 titleTr">
+                    <td width="150">
+                        <input type="checkbox" class="allSelect">全选
+                    </td>
+                    <td width="300">商品</td>
+                    <td width="150">单价</td>
+                    <td width="300">状态</td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="emptyLine"></td>
+                </tr>
+                <tr>
+                    <td class="fullLine" colspan="4"></td>
+                </tr>
+                <tr class="detail">
+                    <td width="150">
+                        <input type="checkbox" class="sigleSel"> 
+                    </td>
+                    <td width="500">
+                        <img src="imgs/index08_05.jpg" alt="">
+                        <span class="pl10r15">从你的全世界路过</span>
+                    </td>
+                    <td width="150" class="unitprice">41.00</td>
+                    <td width="100">
+                        <span class="cf60">待付款</span>
+                        <p><a href="#" class="c333">评价&emsp;</a><a href="#" class="cf60 remove">删除</a></p>
+                    </td>
+                 </tr>
+                  <tr class="detail">
+                    <td width="150">
+                        <input type="checkbox" class="sigleSel"> 
+                    </td>
+                    <td width="500">
+                        <img src="imgs/index08_05.jpg" alt="">
+                        <span class="pl10r15">从你的全世界路过</span>
+                    </td>
+                    <td width="150" class="unitprice">41.00</td>
+                    <td width="100">
+                        <span class="cf60">待付款</span>
+                        <p><a href="#" class="c333">评价&emsp;</a><a href="#" class="cf60 remove">删除</a></p>
+                    </td>
+                 </tr>
+                  <tr class="detail">
+                    <td width="150">
+                        <input type="checkbox" class="sigleSel"> 
+                    </td>
+                    <td width="500">
+                        <img src="imgs/index08_05.jpg" alt="">
+                        <span class="pl10r15">从你的全世界路过</span>
+                    </td>
+                    <td width="150" class="unitprice">41.00</td>
+                    <td width="100">
+                        <span class="cf60">待付款</span>
+                        <p><a href="#" class="c333">评价&emsp;</a><a href="#" class="cf60 remove">删除</a></p>
+                    </td>
+                 </tr>
+                  <tr class="detail">
+                    <td width="150">
+                        <input type="checkbox" class="sigleSel"> 
+                    </td>
+                    <td width="500">
+                        <img src="imgs/index08_05.jpg" alt="">
+                        <span class="pl10r15">从你的全世界路过</span>
+                    </td>
+                    <td width="150" class="unitprice">41.00</td>
+                    <td width="100">
+                        <span class="cf60">待付款</span>
+                        <p><a href="#" class="c333">评价&emsp;</a><a href="#" class="cf60 remove">删除</a></p>
+                    </td>
+                 </tr>
+                  <tr class="detail">
+                    <td width="150">
+                        <input type="checkbox" class="sigleSel"> 
+                    </td>
+                    <td width="500">
+                        <img src="imgs/index08_05.jpg" alt="">
+                        <span class="pl10r15">从你的全世界路过</span>
+                    </td>
+                    <td width="150" class="unitprice">41.00</td>
+                    <td width="100">
+                        <span class="cf60">待付款</span>
+                        <p><a href="#" class="c333">评价&emsp;</a><a href="#" class="cf60 remove">删除</a></p>
+                    </td>
+                 </tr>
+                  <tr class="detail">
+                    <td width="150">
+                        <input type="checkbox" class="sigleSel"> 
+                    </td>
+                    <td width="500">
+                        <img src="imgs/index08_05.jpg" alt="">
+                        <span class="pl10r15">从你的全世界路过</span>
+                    </td>
+                    <td width="150" class="unitprice">41.00</td>
+                    <td width="100">
+                        <span class="cf60">待付款</span>
+                        <p><a href="#" class="c333">评价&emsp;</a><a href="#" class="cf60 remove">删除</a></p>
+                    </td>
+                 </tr>
+                  <tr class="lastTr">
+                    <td width="150">
+                        <input type="checkbox" class="allSelect">全选
+                    </td>
+                    <td width="500" class="removeSel curp">删除选中订单商品</td>
+                    <td colspan="2">已选择<span class="cf60">1</span>件商品&emsp;<strong>总价：</strong> <span class="cf60 total">41.00</span><a href="payOnline.html"><button class="fr cfff bgcf60">去结算</button></a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!--底部banner背景图 -->
+    <div class="bgBanner containe mt40"></div>
+    <!-- 8.尾部 -->
+    <div id="footer" class="mauto clearfix">
+        <div class="bordert6 fliudbox footerfliud">
+            <ul class="container">
+                <li>
+                    <img src="imgs/222_11.png" alt="">
+                </li>
+                <li>
+                    <img src="imgs/222_13.png" alt="">
+                </li>
+                <li>
+                    <img src="imgs/222_15.png" alt="">
+                </li>
+                <li>
+                    <img src="imgs/222_17.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="container fcontain clearfix">
+            <ul class="font16">
+                <li>
+                    <strong class="font18">购物指南</strong>
+                </li>
+                <li>购物流程</li>
+                <li>发票制度</li>
+                <li>账户管理</li>
+                <li>会员优惠</li>
+            </ul>
+            <ul class="font16">
+                <li>
+                    <strong class="font18">支付方式</strong>
+                </li>
+                <li>货到付款</li>
+                <li>网上支付</li>
+                <li>礼品卡支付</li>
+                <li>银行转帐</li>
+            </ul>
+            <ul class="font16">
+                <li>
+                    <strong class="font18">订单服务</strong>
+                </li>
+                <li>订单配送查询</li>
+                <li>订单状态说明</li>
+                <li>自助取消订单</li>
+                <li>自助修改订单</li>
+            </ul>
+            <ul class="font16">
+                <li>
+                    <strong class="font18">退换货</strong>
+                </li>
+                <li>退换货政策</li>
+                <li>自助申请退换货</li>
+                <li>退换货进度查询</li>
+                <li>退款方式和时间</li>
+            </ul>
+            <ul class="font16">
+                <li>
+                    <strong class="font18">商家服务</strong>
+                </li>
+                <li>商家中心</li>
+                <li>运营服务</li>
+                <li>加入尾品汇</li>
+            </ul>
+            <img src="imgs/logo_00.png" alt="" class="flogo">
+        </div>
+        <div class="footerb container">
+            <ul class="clearfix pl40">
+                <li>
+                    <a href="#">公司简介 &emsp;|</a>
+                </li>
+                <li>
+                    <a href="#"> Investor Relations &emsp;|</a>
+                </li>
+                <li>
+                    <a href="#"> 网站联盟 &emsp;| </a>
+                </li>
+                <li>
+                    <a href="#">乐购招商 &emsp;| </a>
+                </li>
+                <li>
+                    <a href="#">机构销售 &emsp;| </a>
+                </li>
+                <li>
+                    <a href="#"> 手机乐购 &emsp;| </a>
+                </li>
+                <li>
+                    <a href="#">官方Blog &emsp;| </a>
+                </li>
+                <li>
+                    <a href="#">热词搜索</a>
+                </li>
+            </ul>
+            <p class="tcenter">Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+
+</html>

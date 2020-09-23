@@ -1,0 +1,307 @@
+/* 商品分类部分 */
+.kinds{
+    width: 200px;
+    height:10px;
+    float: left;
+    padding-top: 34px;
+    background:#93d46f url(../imgs/kinds.jpg) no-repeat 10px 1px;
+    margin-top:-5px;
+}
+/* 分类菜单 */
+.kinds .menuSlide{
+    width: 200px;
+    position: relative;
+    z-index:1001;
+}
+.kinds .menuSlide li p{
+    text-indent:20px;
+    line-height: 35px;
+    background: #f3f3f3;
+    position: relative;
+    z-index: 1001;
+    border:1px solid #f3f3f3;
+}
+.kinds .menuSlide li p a{
+    font-size:14px;
+    color:#1a1a1a;
+}
+
+/* hover */
+.kinds .menuSlide li:hover p{
+    width: 200px;
+    background: #fff;
+    border:1px solid #f60;
+    border-right:1px solid #fff;
+}
+
+/* 二级菜单 */
+.kinds .menuSlide li dl{
+    width: 475px;
+    border:1px solid #f60;
+
+    position: absolute;
+    left:200px;
+    top:0;
+
+    z-index:1000;
+
+    display: none;
+}
+/* hover */
+.kinds .menuSlide li:hover dl{
+    display: block;
+    padding:0 70px 30px 35px;
+    background: #fff;
+}
+
+/* 修饰样式 */
+.kinds .menuSlide li dl dt{
+    border-bottom:2px solid #e6e6e6;
+    line-height: 26px;
+}
+.kinds .menuSlide li dl dt.bnone{
+    border:none;
+    line-height: 40px;
+}
+.kinds .menuSlide li dl dt.bnone a{
+    color: #262626;
+    margin-right:35px;
+}
+.kinds .menuSlide li dl dt a{
+    color:#f60;
+    font-size:14px;
+}
+.kinds .menuSlide li dl dd{
+    line-height: 24px;
+}
+.kinds .menuSlide li dl dd a{
+    color: #262626;
+    margin-right:10px;
+}
+
+
+
+/* 详情页面 */
+/* 左边 */
+#proDetail{
+    padding:0 20px;;
+}
+#proDetail .detailLeft{
+    width: 340px;
+    height:474px;
+}
+/* 放大镜效果 */
+#proDetail .detailLeft .magnifier{
+    margin:0;
+    padding: 0;
+}
+/* 右边 */
+#proDetail .detailright{
+    width: 788px;
+    height:474px;
+}
+#proDetail .datailtitle{
+    line-height: 30px;
+}
+#proDetail .datailtitle p{
+    margin:0 15px;
+}
+/* 右边 */
+#proDetail .detailRight{
+    width: 788px;
+    height: 474px;
+}
+#proDetail .detailtitle h2{
+    padding:0 15px;
+}
+#proDetail .detailRight p{
+    line-height: 38px;
+    padding:0 15px;
+    color: #949494;
+}
+#proDetail .detailRight p span{
+    margin-right:15px;
+}
+
+#proDetail .detailPrice{
+    background-color: #f5f5f5;
+    position: relative;
+    padding-bottom: 10px;
+}
+#proDetail .detailRight .quan{
+    padding:0 15px;  
+}
+#proDetail .detailRight .quan>span{
+    width: 94px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    display: inline-block;
+    background: url(../imgs/Q.png) no-repeat;
+    color:#fff;
+}
+#proDetail .detailPrice .evaluate{
+    width: 65px;
+    border-left:1px solid #ccc;
+
+    position: absolute;
+    top:10px;
+    right:10px;
+    padding-left:5px;
+}
+
+#proDetail .detailSel{
+    margin:15px 0 54px;
+}
+#proDetail .detailSel span{
+    display: inline-block;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border:1px solid #c9c9c9;
+}
+#proDetail .detailSel span.active{
+    border:1px solid #f60;
+    background: url(../imgs/select.png) no-repeat right bottom;
+}
+/* 加入购物车 */
+.addshop span{
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+}
+.bAdd,.bReduce{
+    width: 21px;
+	height: 22px;
+	background-color: #e6e6e6;
+    border: solid 1px #d9d9d9;
+    outline: 0;
+    line-height: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.addCar{
+    width: 150px;
+	height: 56px;
+	line-height: 56px;
+    color: #fefefe;
+    border: 0;
+    margin-top:-6px;
+}
+/* 3.人气单品 */
+#discount .title h2{
+    width: 162px;
+    height: 34px;
+    line-height: 34px;
+    text-indent: 10px;
+}
+/* 内容商品 */
+#discount>ul li{
+    float: left;
+    width: 240px;
+    height: 250px;
+    padding-top:5px;
+    position: relative;
+}
+#discount>ul li:hover{
+    background: #f2f2f2;
+}
+/* 下部商品列表 */
+#plist .listLeft{
+    width: 260px;
+	border: solid 1px #e6e6e6;
+}
+#plist .listLeft>p{
+    line-height: 40px;
+	height: 40px;
+	background-color: #f4f4f4;
+}
+#plist .listRight{
+    width: 860px;
+}
+#plist .listLeft li{
+    width: 196px;
+	height: 243px;
+    border-bottom:1px solid #e6e6e6;
+    margin:30px 30px;
+}
+/* 评价部分 */
+/* 98% */
+.evaluate .good{
+    width:783px;
+    height:80px;
+   
+    margin:45px 0 0 36px;
+}
+.evaluate .good>div:first-child p{
+    margin-top:-10px;
+    font-size:50px;
+}
+.evaluate .good>div span{
+    margin-top:-30px;
+    margin-left:55px;
+}
+
+/* 好评度 */
+.comment .goodview .viewLine{
+    margin:40px;
+    width: 224px;
+}
+.goodview .viewLine p{
+    width:232px;
+    margin-bottom:12px;
+    position: relative;
+}
+
+ .viewLine p>span{
+    width:232px;
+    height:16px;
+    background: #e6e6e6;
+}
+  .reputation .great{
+    width:146px;
+    height:16px;
+    background: #f60;
+    position: absolute;
+    top:16px;
+    left:0;
+}
+.medium .just{
+    width:4px;
+    height:16px;  
+    background: #f60;
+    position: absolute;
+    top:20px;
+    left:0;
+}
+.negative .bad{
+    width:10px;
+    height:16px;  
+    background: #f60;
+    position: absolute;
+    top:20px;
+    left:0;
+}
+/* 好评列表部分 */
+.comment>ul li{
+    padding-bottom: 70px;
+    border-bottom: 2px solid #f2f2f2;
+}
+/* 翻页 */
+.pagenation a{
+    display: inline-block;
+    width: 32px;
+	height: 32px;
+	background-color: #fafafa;
+    border: solid 1px #e6e6e6;
+    line-height: 32px;
+    color:#666;
+    margin-left: 5px;
+}
+.pagenation a.on{
+    color: #fff;
+    background: #f60;
+}

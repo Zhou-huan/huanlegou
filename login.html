@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 1.引入重置样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 2.引入公用样式表 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 3.引入首页样式表 -->
+    <link rel="stylesheet" href="./css/login.css">
+
+    <!-- 5.引入插件js -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_zh.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body>
+       <!-- 1.header开始 -->
+       <div id="header" class="fliudbox clearfix">
+            <!-- 欢迎 -->
+            <div class="welcome bgc1010">
+                <!-- 版心 -->
+                <div class="container clearfix ce6e6">
+                    <p class="fl pl208">legochina.cn</p>
+                    <div class="fr">
+                        欢迎光临
+                        <a href="index.html" class="cf60">乐购</a>，请
+                        <a href="login.html" class="ce6e6">登陆</a>\
+                        <a href="register.html" class="cf60">注册</a>
+                        <a href="vipcenter.html" class="cf60">会员</a>                        
+                    </div>
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="./imgs/logo.jpg" alt="" width="200" height="81">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- 欢迎登陆部分 -->
+            <div class="container">
+               <h2 class="pl208 mt15 c666 font20">欢迎登陆</h2>
+            </div>
+        </div>
+        <!-- 中间主体部分 -->
+        <div class="container main mt10">
+			<div class="section tcenter">
+                <p class="font20 clearfix c666"><span class="fl scanLogin cf60 curp">扫码登录</span> <span class="fr userLogin curp">账户登录</span></p>
+
+                <!-- 扫描登录 -->
+              <div class="mt40 mb40">
+                <img src="imgs/saoma.jpg" alt="" class="saosao">
+                <p>打开手机&emsp;乐购APP&emsp;扫一扫</p>
+              </div>
+               <!-- 账户登录 -->
+				<form action="" method="post" id="myform">
+					<p>
+						<input type="text" name="username" placeholder="邮箱/用户名/已验证手机" class="c333 mt15"/><br />
+					</p>
+					<p>
+						<input type="password" name="pwd" placeholder="密码" class="c333"/>
+					</p>
+					<p id="forget" class="font16">忘记密码?&emsp;</p>
+					<p><button type="submit" class="font18 bgcf60 cfff">登&emsp;录</button></p>
+                    <span class="mt15 tI15"> 
+                        <a href="#"><img src="imgs/QQ.png" />QQ</a>&emsp;
+                        <a href="#"><img src="imgs/weixin.png"/>微信</a>&emsp;
+                        <a href="register.html"><img src="imgs/pwd-icons-new_08.png"/>立即注册</a></span>
+                </form>
+			</div>
+        </div>
+         <!-- 10.footer 页脚 -->
+        <div id="footer" class="mauto clearfix">
+            <div class="footerb container">
+                <ul class="clearfix pl40">
+                    <li>
+                        <a href="#">公司简介 &emsp;|</a>
+                    </li>
+                    <li>
+                        <a href="#"> Investor Relations &emsp;|</a>
+                    </li>
+                    <li>
+                        <a href="#"> 网站联盟 &emsp;| </a>
+                    </li>
+                    <li>
+                        <a href="#">乐购招商 &emsp;| </a>
+                    </li>
+                    <li>
+                        <a href="#">机构销售 &emsp;| </a>
+                    </li>
+                    <li>
+                        <a href="#"> 手机乐购 &emsp;| </a>
+                    </li>
+                    <li>
+                        <a href="#">官方Blog &emsp;| </a>
+                    </li>
+                    <li>
+                        <a href="#">热词搜索</a>
+                    </li>
+                </ul>
+                <p class="tcenter">Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+            </div>
+        </div> 
+</body>
+</html>

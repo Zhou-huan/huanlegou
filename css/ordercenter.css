@@ -1,0 +1,79 @@
+/* 导航部分 */
+.vipnav a{
+    float: left;
+    width: 80px;
+	height: 36px;
+    background-color: #ffff;
+    margin: 10px 30px;
+    color: #666;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+}
+#header .vipnav a.on{
+    background-color: #ff6600;
+    color: #fff;
+}
+.vipnav span{
+    line-height:56px;
+}
+/* 中间主体部分 */
+#main .mainLeft{
+    width: 300px;
+    background: #fafafa;
+}
+#main .mainLeft p{
+    width:300px;
+    padding-left: 20px;
+}
+#main .mainLeft h4{
+    width: 300px;
+    text-align: center;
+}
+#main  .mainLeft p>a{
+    margin: 10px 10px 0 0;
+}
+#main  .mainLeft .speimg{
+    display: block;
+    margin-top: 20px;
+}
+#main .mainRight{
+    width: 880px;
+}
+/* 改变图片的对齐方式 */
+#main .mainRight .leaderTr{
+    width: 880px;
+    height: 60px;
+}
+#main .mainRight .titleTr,.lastTr{
+    width: 880px;
+    height: 60px;
+}
+#main .mainRight img{
+    display: inline-block;
+    border: 1px solid #e6e6e6;
+    padding:0 20px;
+    margin:20px 0;
+}
+#main .mainRight .emptyLine{
+    width: 880px;
+	height: 20px;
+}
+#main .mainRight .fullLine{
+    width: 880px;
+	height: 6px;
+    background-color: #dfdfdf;
+}
+#main .mainRight .detail{
+    border-bottom: 2px solid #dfdfdf;
+}
+#main .mainRight .lastTr{
+    line-height: 50px;
+}
+#main .mainRight button{
+    border: 0;
+    width: 90px;
+    height: 50px;
+    border-radius: 2px;
+}
+

@@ -1,0 +1,503 @@
+/* 公用样式 */
+/* 设置浮动 */
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+
+/* 清除浮动 */
+.clearfix:after{
+    content: '';
+    display: block;
+    height:0;
+    clear: both;
+}
+
+.clear{
+    clear: both;
+}
+/* 通栏盒子 */
+.fliudbox{
+    min-width: 1200px;
+}
+/* 版心: 作用 固定宽度  水平居中 */
+
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+
+/* background */
+.bgc1010{
+    background: #101010;
+}
+.bgf9f9{
+    background: #f9f9f9;
+}
+.bgcf60{
+    background: #f60;
+}
+.bgcf2f2{
+    background: #f2f2f2;
+}
+/* color */
+.cf60{
+    color:#f60;
+}
+.ce6e6{
+    color: #e6e6e6;
+}
+.cred{
+    color: #f4290d !important;
+}
+.c333{
+    color: #333333 !important;
+}
+.c666{
+    color: #666;
+}
+.cfff{
+    color: #fff;
+}
+.c9494{
+    color: #949494;
+}
+.c4d4d{
+    color: #4d4d4d;
+}
+.yellow{
+    color: #f4b212;
+}
+/* padding */
+.pl208{
+    padding-left:208px;
+}
+.pl60{
+    padding-left: 60px;
+}
+.pt5b15{
+    padding: 5px 0 15px 0;
+}
+.pl40{
+    padding-left: 80px;;
+}
+.pl10r15{
+    padding:0 15px 0 10px;
+}
+.ptb15{
+    padding: 15px 0;
+}
+.ptblr5{
+    padding:5px;
+}
+.ptp10lr30{
+    padding: 10px 30px;
+}
+
+.ptb1lr8{
+    padding: 4px 8px;
+}
+.pr30{
+    padding-right:30px;
+}
+.ptb2lr10{ 
+    padding: 2px 10px;
+}
+
+.ptb30{
+    padding: 30px 0;
+}
+/* 文本对齐 */
+.tcenter{
+    text-align: center;
+}
+/* 隐藏 */
+.hide{
+    display: none;
+}
+/* 转换成行内块 */
+.dispib{
+    display: inline-block;
+}
+/* text */
+.tI10{
+    text-indent: 10px;
+}
+.tI15{
+    text-indent: 15px;
+}
+/* margin */
+.mauto{
+    margin:0 auto;
+}
+.mt10{
+    margin-top:10px;
+}
+.mt40{
+    margin-top: 40px;
+}
+.mt20{
+    margin-top:20px;
+}
+.mt15{
+    margin-top:15px;
+}
+.pr30{
+    margin-left:35px;
+}
+.mb40{
+    margin-bottom:40px;
+}
+.mlr15{
+    margin:0 15px;
+}
+/* font-size */
+
+.font14{
+    font-size:14px;
+}
+.font16{
+    font-size:16px;
+}
+.font18{
+    font-size:18px;
+}
+.font20{
+    font-size:20px;
+}
+.font24{
+    font-size: 24px;
+}
+.font60{
+    font-size: 70px;
+}
+/* border */
+.borderb6{
+    border-bottom:6px solid #f60;
+}
+.bordert6{
+    border-top:6px solid #f60;
+}
+.borderb2{
+    border-bottom: 2px solid #e6e6e6;
+}
+.border1{
+    border: 1px solid #e6e6e6;
+}
+/* 下边框阴影 */
+.borderbs{
+    box-shadow: 0px 2px 5px #ccc;
+}
+/* 手型 */
+.curp{
+    cursor: pointer;
+}
+/* 公用标题 */
+.title{
+    height:34px;
+    line-height: 34px;  
+}
+/* 公共圆型按钮 */
+.circleLi{
+    float:left;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 100%;
+    background: #bfbfbf;
+    margin:0 10px;
+}
+.circleLi.current{
+    background: #f60;
+}
+/* 五星大小设置 */
+.starSize{
+    width:100px;
+}
+/* 星星制作 */
+.wstar{
+    width: 610px;
+    height:110px;
+    background: url(../imgs/staricon.jpg) no-repeat 0 0;
+    transform: scale(0.15);
+    position: relative;
+    top:-90px;
+    left:-210px;
+}
+.wstar .nstar{
+    width: 80%;
+    height:110px;
+    background: url(../imgs/staricon.jpg) no-repeat 0 -469px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+/* 公用banner背景 */
+.bgBanner{
+    background:url(../imgs/bannerb.jpg) no-repeat center top;
+    height: 90px;
+}
+/* tab切换按钮样式设置--公共 */
+.commentnav li{
+    float:left;
+    width: 100px;
+    height: 34px;
+}
+.commentnav li.current{
+    background: #f60;
+    color:#fff;
+}
+/* 按钮对应内容的切换显示与否设置 */
+/* 设置当前ul 显示 on */
+.commentinner>ul.on{
+    display: block;
+}
+ .commentinner>ul{
+    display: none;
+}
+/* 主新书畅销+编推荐手风琴 公共 */
+.rightbox{
+    width: 284px;
+    height:445px;
+    border: 2px solid #e0dede;
+}
+ .rightbox .sliderbar li{
+    margin-left:22px;
+    text-indent:8px;
+    position: relative;
+}
+ .rightbox .sliderbar li span{
+    position: absolute;
+    left: -21px;
+    top: 11px;
+}
+.rightbox .sliderbar li h4{
+    line-height: 43px;
+    font-size:14px;
+    color: #4d4d4d;
+}
+.rightbox .sliderbar li div img{
+    width: 112px;
+    height: 146px;
+}
+ .rightbox .sliderbar li div p{
+    width: 120px;
+    height: 115px;
+}
+.rightbox .sliderbar li:not(:last-child){
+    border-bottom:2px solid #e0dede;
+}
+/* 返回到顶部 公用*/
+#btns{
+    position: fixed;
+    top:50%;
+    margin-top:170px;
+    right: 50%;
+    margin-right:-640px;
+    width:40px;
+    text-align: center;
+    cursor: pointer;
+    background: #f60;
+}
+#closebtn{
+    font:12px/2em "微软雅黑";
+    border:1px solid #ccc;
+    margin: 0;
+    color: #fff;
+}
+#topbtn{
+    background: #ddd;
+    height: 40px;
+    font:16px/40px arial;
+}
+
+/* 公用页首和页脚部分 */
+
+/* 头部样式 */
+#header .welcome{
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+}
+#header .welcome .logo{
+    position: absolute;
+}
+
+/* 公用搜索框 */
+.search{
+    width: 440px;
+    height: 32px;
+    border:2px solid #f60;
+}
+.search input{
+    width: 390px;
+    height:32px;
+    border:none;
+    text-indent: 8px;
+    outline: none;
+}
+ .search .btn{
+    width: 50px;
+    background: url(../imgs/bgicon.png) no-repeat;
+    font-size:0;
+}
+/* 购物车 */
+#header .shopCar a{
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #ebebeb;
+    border: solid 1px #cccccc;
+    color: #808080;
+    box-sizing: border-box; 
+    float:right;
+}
+#header .shopCar a:last-child{
+    background: #f60 url(../imgs/bgicon.png) no-repeat 0px -42px;
+    color:#fff; 
+    border:none;
+    text-indent: 10px;
+}
+
+/* 导航菜单 */
+#header .nav{
+    padding-left:215px;
+    width: 1000px;
+    margin-top: -8px;
+    
+}
+#header .nav li{
+    float:left;
+    margin:0 5px;
+}
+#header .nav li a{
+    display: inline-block;
+   width:80px;
+   height:36px;
+   text-align: center;
+   line-height:36px;
+    color: #323232;
+}
+#header .nav li a:hover{
+    background: #f60;
+    color: #fff;
+}
+/* 页脚 */
+#footer .footerfliud{
+    height: 100px;
+    background-color: #f2f2f2;
+}
+#footer .footerfliud li{
+    margin:20px 0 0 114px; 
+    float: left;
+}
+#footer .fcontain ul{
+    margin:40px 0 0 112px;
+    line-height:32px;
+    text-align: center;
+    float: left;
+}
+#footer .flogo{
+    float: left;
+    margin:80px 0 0 20px;
+}
+#footer .footerb li{
+    float: left;
+    margin:26px 0 10px 30px;
+    font-size: 14px;
+}
+#footer .footerb li a{
+    color: #333;
+}
+
+/* 固定头部 公用*/
+#fixedHead{
+    height:60px;
+    width: 100%;
+    background: rgba(56, 30, 15, 0.8);
+    position: fixed;
+    top: 0;
+    top:0;
+    z-index: 1003;
+    display: none;
+}
+#fixedHead .search{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-left:-220px;
+    margin-top:-16px;
+}
+#fixedHead img:first-child{
+    height:80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -300px;
+}
+#fixedHead img:nth-child(2){
+    height:50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: 240px;
+}
+
+/* 面包屑导航 */
+.bread{
+    line-height: 48px;
+    color: #646464;
+}
+.bread a{
+    color: #646464;
+}
+/* 遮蔽层 */
+#meng{
+    position: fixed;
+    top:0;
+    left:0;
+}
+#message{
+    width: 400px;
+    height: 300px;
+    background:#fff;
+    display:none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top:-150px;
+    margin-left: -200px;
+    user-select: none;
+}
+#message p{
+    line-height: 30px;
+    background: #ccc;
+    font-size: 16px;
+    color: #666;
+    text-indent: 20px;
+}
+#message button{
+    width: 80px;
+    height: 40px;
+    background: #f60;
+    text-align: center;
+    line-height: 40px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    margin: 60px 0 0 150px;
+}
+#message img{
+    width:60px;
+    height: 50px;
+    margin:10px 0 10px 160px;
+}
+/* 测试工具   一般使用border 或背景色 */
+.bd{
+    border:1px solid red;
+    box-sizing: border-box;
+}

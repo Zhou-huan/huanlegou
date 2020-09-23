@@ -1,0 +1,35 @@
+$(function(){
+    //中间主体
+    $('.userLogin').click(function(){
+        $('.section>div').slideUp(300);
+        $('.section>form').slideDown(300);
+        $(this).addClass('cf60');
+        $('.scanLogin').removeClass('cf60');
+        
+    });
+    $('.scanLogin').click(function(){
+        $('.section>form').slideUp(300);
+        $('.section>div').slideDown(300);
+        $(this).addClass('cf60').next('span').removeClass('cf60');
+    });
+    //账户登录
+    $('#myform').validate({
+        rules:{//规则 通过input标签上的name来选择器指定的标签
+            username:{
+                required:true,//要执行规则，必须要有
+            },
+            pwd:{
+                required:true,
+            }
+        },
+        messages:{//提示信息
+            username:{
+                required:'请输入用户名',
+            },
+            pwd:{
+                required:'请输入密码',
+            }
+        }
+    });
+     //自定义验证规则
+})

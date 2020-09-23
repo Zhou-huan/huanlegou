@@ -1,0 +1,59 @@
+/* 中间主体部分 */
+#main p{
+    width: 1200px;
+    margin:0 auto;
+    float: left;
+    line-height: 60px;
+}
+#main .pays{
+    width: 1200px;
+	height: 94px;
+    background-color: #f2f2f2;
+    margin-top:20px;
+    line-height:94px;
+}
+#main .otherPay{
+    background: #76aff5;
+}
+#main ul li{
+   float: left;
+   margin: 10px;
+}
+#main ul li a{
+    color: #666;
+}
+#main .pays>span{
+    display: inline-block;
+    width: 125px;
+    height: 34px;
+    cursor: pointer;
+    border: 1px solid #666;
+    text-align: center;
+    line-height: 34px;
+    margin:30px 30px 0 60px;
+}
+#main .pays>span.active{
+    border:1px solid #f60;
+    background: url(../imgs/select.png) no-repeat right bottom;
+}
+#main .pays>p{
+    width: 348px;
+	height: 34px;
+    border: solid 1px #bfbfbf;
+    line-height: 34px;
+    margin:30px 30px 0 0;
+}
+#main .pays a{
+    display: inline-block;
+    width: 120px;
+	height: 30px;
+    background-color: #999999;
+    line-height: 30px;
+    color: #fff;
+    margin:30px 30px 0 0;
+    text-align: center;
+}
+span.active{
+    border:1px solid #f60;
+    background: url(../imgs/select.png) no-repeat right bottom;
+}

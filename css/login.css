@@ -1,0 +1,74 @@
+
+/* 中间主体部分 */
+.main{
+	height: 480px;
+	background: url(../imgs/bg-ad.png);
+	position: relative;
+}
+.main>.section{
+	width:280px;
+	height:300px;
+	padding-top: 10px;
+	background: #FFFFFF;
+	position: absolute;
+	left: 600px;
+	top:50px;
+	overflow: hidden;
+}
+.main>.section .saosao{
+	position: relative;
+	z-index:999;
+}
+.main .section p{
+	width: 200px;
+	margin: 10px auto;
+}
+#forget{
+	text-align: right;
+	color:#000000;
+}
+.section form input{
+	height:32px;
+	margin-top: 20px;
+	line-height:32px;
+	padding-left: 40px;
+	outline:none;
+	width:200px;
+	border:1px solid #aaa;
+	box-sizing: border-box;
+}
+.section form input:first-child{
+	background: url(../imgs/people.png) no-repeat;
+}
+.section form input:last-child{
+	background: url(../imgs/lock.png) no-repeat;
+}
+.section button{
+	width: 200px;
+	height:30px;
+	line-height: 30px;
+	border:0;
+}
+.section form span{
+	display: block;
+	width: 280px;
+	height: 54px;
+	border-top:1px solid #AAAAAA;
+	background: #EEEEEE;
+	line-height: 54px;
+}
+/* 修改样式 */
+#myform p label.error{
+    height:20px;
+    width:400px;
+    position: absolute;
+    top:112px;
+    left: -120px;
+	font-size: 12px;
+	line-height:20px;
+    color: #f00;
+}
+#myform p #pwd-error{
+	position: absolute;
+	top: 176px;
+}

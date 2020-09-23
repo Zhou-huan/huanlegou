@@ -1,0 +1,255 @@
+/* 商品分类部分 */
+.kinds{
+    width: 200px;
+    height:10px;
+    float: left;
+    padding-top: 40px;
+    background:#93d46f url(../imgs/kinds.jpg) no-repeat 10px 10px;
+    margin-top:-5px;
+}
+/* 分类菜单 */
+.kinds .menuSlide{
+    width: 200px;
+    position: relative;
+    z-index:1001;
+}
+.kinds .menuSlide li p{
+    text-indent:20px;
+    line-height: 35px;
+    background: #f3f3f3;
+    position: relative;
+    z-index: 1001;
+    border:1px solid #f3f3f3;
+}
+.kinds .menuSlide li p a{
+    font-size:14px;
+    color:#1a1a1a;
+}
+
+/* hover */
+.kinds .menuSlide li:hover p{
+    width: 200px;
+    background: #fff;
+    border:1px solid #f60;
+    border-right:1px solid #fff;
+}
+
+/* 二级菜单 */
+.kinds .menuSlide li dl{
+    width: 475px;
+    border:1px solid #f60;
+
+    position: absolute;
+    left:200px;
+    top:0;
+
+    z-index:1000;
+
+    display: none;
+}
+/* hover */
+.kinds .menuSlide li:hover dl{
+    display: block;
+    padding:0 70px 30px 35px;
+    background: #fff;
+}
+
+/* 修饰样式 */
+.kinds .menuSlide li dl dt{
+    border-bottom:2px solid #e6e6e6;
+    line-height: 26px;
+}
+.kinds .menuSlide li dl dt.bnone{
+    border:none;
+    line-height: 40px;
+}
+.kinds .menuSlide li dl dt.bnone a{
+    color: #262626;
+    margin-right:35px;
+}
+.kinds .menuSlide li dl dt a{
+    color:#f60;
+    font-size:14px;
+}
+.kinds .menuSlide li dl dd{
+    line-height: 24px;
+}
+.kinds .menuSlide li dl dd a{
+    color: #262626;
+    margin-right:10px;
+}
+/* 大轮播图banner部分 */
+#hotsell .banner{
+    width: 1000px;
+    height: 200px;
+}
+/* 右边 新书畅销榜手风琴效果*/
+#hotsell .sellrightbox{
+    width: 200px;
+    height:420px;
+    border-bottom:2px solid #e0dede;
+}
+.sellrightbox .sellsliderbar li{
+    position: relative;
+    height: 42px;
+    overflow: hidden;
+}
+.sellrightbox .sellsliderbar li.shows{
+    height:110px;
+    padding-top:14px;
+    position: relative;
+}
+.sellrightbox .sellsliderbar li span{
+    width: 20px;
+    height: 20px;
+    display: block;
+    line-height:20px;
+    background: #f60;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right:0;
+
+}
+.sellrightbox h2{
+    line-height: 30px;
+    width: 200px;
+    height: 30px;
+    color: #fff;
+	background-color: #93d46f;
+}
+.sellrightbox .sellsliderbar li img{
+    width: 100px;
+    height: 100px;
+}
+.sellrightbox .sellsliderbar li p{
+    width: 90px;
+    position: absolute;
+    top:25px;
+    right:0;
+}
+.sellrightbox .sellsliderbar li:not(:first-child){
+    border-top:2px solid #e0dede;
+}
+/* 3.乐购图书折扣区 */
+#discount .title h2{
+    width: 162px;
+    height: 34px;
+    line-height: 34px;
+    text-indent: 10px;
+}
+/* 内容商品 */
+#discount>ul li{
+    float: left;
+    width: 240px;
+    height: 250px;
+    padding-top:5px;
+}
+#discount>ul li:hover{
+    background: #f2f2f2;
+}
+/* 主编推荐手风琴效果盒子 */
+.rightbox{
+    height:500px;
+}
+/*4. 新书上架 */
+/* 标题 */
+#newBooks .newsTitle{
+    width: 905px;
+}
+#newBooks>ul{
+    border: 2px solid #e0dede;
+    width:901px;
+}
+#newBooks>ul li{
+    width: 160px;
+    height: 220px;
+    padding:15px 10px;
+    float: left;
+}
+/* 5.独家提供 */
+ .productbox{
+    width: 1120px;
+}
+.productbox div{
+    width: 186px;
+    float: left;
+    margin: 10px 0;
+}
+.bookCommon{
+    height:518px;
+}
+/* 修改插件 */
+#supply .productbox div p img{
+    width: 150px !important;
+    height: 150px !important;
+}
+#supply .controls li{
+    margin-left:10px;
+}
+#supply .controls{
+    width: 175px !important;
+}
+/* 设置当前轮播图为显示，其余为影藏 */
+#supply .bookCommon>div.show{
+    display:block;
+}
+#supply .bookCommon>div{
+    display: none;
+}
+/*6. 猜你喜欢 */
+#likes .but{
+    display: inline-block;
+    width: 94px;
+    height: 20px;
+    background: url(../imgs/qiehuan.jpg)no-repeat;
+    background-size: 94px 20px;
+    margin-top: 10px;
+}
+#likes .loveBox{
+    height:490px;
+    /* width: 1120px; */
+    overflow: hidden;
+    position: relative;
+}
+#likes .loveBox .loveUl{
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+/* 人文社科 */
+#humanity li{
+    float: left;
+    width: 200px;
+    height: 110px;
+    padding:20px 0;
+}
+#humanity li img{
+    height:100px;
+}
+#humanity li p{
+    width: 100px;
+    height: 20px;
+    background: #f00;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+/* 右侧栏楼层 */
+/* menu */
+#menu{position:fixed;left:50%;margin-left:-684px;top:300px;}
+#menu ul li a{
+    display: block;
+    /* margin: 5px 0; */
+    /* font-size: 14px; */
+    font-weight: bold;
+    color: #fff;
+    width: 81px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    background: #f60;
+    border: 1px solid #f3f3f3;
+}
+#menu ul li a:hover,#menu ul li a.current{color:#fff;background:#93d46f;}

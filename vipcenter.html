@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 1.引入重置样式 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 2.引入公用样式表 -->
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- 3.引入首页样式表 -->
+    <link rel="stylesheet" href="./css/vipcenter.css">
+     <!-- 4.插件样式 -->
+     <link rel="stylesheet" href="./css/slider.css">
+
+    <!-- 5.引入js -->
+    <script src="js/jquery-1.11.0.js"></script>
+    <!-- 引轮播插件 -->
+    <script src="./js/slider.js"></script>
+    <script src="js/vipcenter.js"></script>
+    
+   
+</head>
+
+<body>
+    <!-- 1.header开始 -->
+    <div id="header" class="fliudbox clearfix">
+        <!-- 欢迎 -->
+        <div class="welcome bgc1010">
+            <!-- 版心 -->
+            <div class="container clearfix ce6e6">
+                <p class="fl pl208">legochina.cn</p>
+                <div class="fr">
+                    欢迎光临
+                    <a href="index.html" class="cf60">乐购</a>，请
+                    <a href="login.html" class="ce6e6">登陆</a>\
+                    <a href="register.html" class="cf60">注册</a>
+                </div>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./imgs/logo1.jpg" alt="" width="205px">
+                    </a>
+                </div>
+            </div>
+        </div>
+         <!-- 导航部分 -->
+         <div class="container vipnav">
+             <span class="pl208  c666 font20 fl">乐我所乐，我的vip</span>
+             <div class="clearfix fr">
+                <a href="vipcenter.html" class="on">首页</a>
+                <a href="ordercenter.html">我的订单</a>
+                <a href="home.html">会员特权</a>
+            </div>
+        </div>
+    </div>
+    <!-- 会员专享 -->
+    <div id="member" class="fliudbox">
+        <div class="container clearfix ptb15">
+            <!-- 左侧内容 -->
+            <div class="vipLeft">
+                <h3 class="bgcf60 cfff font18 tI10">会员每日特权</h3>
+                <a href="#"><img src="imgs/vip5.jpg" alt=""></a>
+                <a href="#"><img src="imgs/vip6.jpg" alt=""></a>
+                <a href="#"><img src="imgs/vip7.jpg" alt=""></a>
+            </div>
+            <!-- 中间轮播内容 -->
+            <div class="center">
+                  <!--轮播开始-->
+            <div class="pptbox fl" id="vBannerInner">
+            <!--轮播的内容-->
+            <ul class="innerwrapper">
+                <li>
+                    <a href="#">
+                        <img src="./imgs/vipcbanner2.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./imgs/banner2.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./imgs/banner3.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./imgs/banner4.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./imgs/banner5.jpg" />
+                    </a>
+                </li>
+            </ul>
+            <!--数字控制器-->
+            <ul class="controls">
+                <li class="current">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <!--按钮控制器-->
+            <span class="btnleft"></span>
+            <span class="btnright"></span>
+        </div>
+        <!--轮播结束-->
+            </div>
+            <!-- 右边内容 -->
+            <div class="vipright">
+                <div class="vipLogin ptb15 clearfix">
+                    <img src="imgs/people.png" alt="" class="fl mlr15 border1">
+                    <div class="fl ptb1lr8">
+                        <a href="login.html" class="c333 font16">立即登录</a><br>
+                        <a href="#" class="c666">查看你的特权</a>
+                    </div>
+                    <p class="fl mt40 c333 leDou">我的乐豆：520个</p>
+                    <p class="fl mt40 c333 youHui">我的优惠劵</p>
+                    <img src="imgs/vRight1.jpg" alt="" class="mt40" width="116">
+                    <h4 class="mt20"><a href="login.html" class="c666">请 <strong>登录</strong> 查看</a></h4>
+                    <img src="imgs/vRight2.jpg" alt="" class="mt20" width="116">
+                    <h4 class="mt20"><a href="login.html" class="c666">请 <strong>登录</strong>查看</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 通栏图片展示部分 -->
+    <div id="plus" class="fliudbox">
+        <ul class="container">
+            <li><a href="#"><img src="imgs/vip1.jpg" alt="" height="142px"></a></li>
+            <li><a href="#"><img src="imgs/vip2.jpg" alt=""></a></li>
+            <li><a href="#"><img src="imgs/vip3.jpg" alt=""></a></li>
+            <li><a href="#"><img src="imgs/vip4.jpg" alt=""></a></li>
+        </ul>
+    </div>
+    <!--1F 乐豆兑换劵 -->
+     <div id="loves" class=" container clearfix">
+        <!-- 标题 -->
+        <div class="title mt40 borderb6">
+            <h2 class="font20 fl  cfff bgcf60 ptb2lr10">1F&emsp;乐豆兑换劵</h2>
+        </div>
+        <!-- 内容 -->
+        <ul class="container clearfix vProducts">
+            <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <img src="./imgs/xianliang.jpg" alt="">
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10"><span class="font20">减50</span><span>乐购满200元</span></p>
+                <div class="bgcf60 cfff">15乐豆兑换</div>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <img src="./imgs/xianliang.jpg" alt="">
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10"><span class="font20">减50</span><span>乐购满200元</span></p>
+                <div class="bgcf60 cfff">15乐豆兑换</div>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10"><span class="font20">减50</span><span>乐购满200元</span></p>
+                <div class="bgcf60 cfff">15乐豆兑换</div>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10"><span class="font20">减50</span><span>乐购满200元</span></p>
+                <div class="bgcf60 cfff">15乐豆兑换</div>
+            </li>
+             <li class="special">
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10"><span class="font20">减50</span><span>乐购满200元</span></p>
+                <div class="bgcf60 cfff">15乐豆兑换</div>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10"><span class="font20">减50</span><span>乐购满200元</span></p>
+                <div class="bgcf60 cfff">15乐豆兑换</div>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10"><span class="font20">减50</span><span>乐购满200元</span></p>
+                <div class="bgcf60 cfff">15乐豆兑换</div>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10"><span class="font20">减50</span><span>乐购满200元</span></p>
+                <div class="bgcf60 cfff">15乐豆兑换</div>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10"><span class="font20">减50</span><span>乐购满200元</span></p>
+                <div class="bgcf60 cfff">15乐豆兑换</div>
+            </li>
+             <li class="special">
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10"><span class="font20">减50</span><span>乐购满200元</span></p>
+                <div class="bgcf60 cfff">15乐豆兑换</div>
+            </li>
+           
+        </ul>
+         <!--底部banner背景图 -->
+         <div class="vipBanner container mt40"></div>
+    </div>
+     <!--2F会员特价 -->
+     <div id="mspecials" class=" container clearfix">
+        <!-- 标题 -->
+        <div class="title mt40 borderb6">
+            <h2 class="font20 fl  cfff bgcf60 ptb2lr10">2F&emsp;会员特价</h2> 
+        </div>
+        <!-- 内容 -->
+        <ul class="container clearfix vProducts">
+            <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <img src="./imgs/sprices.jpg" alt="">
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10">消耗100乐豆</p>
+                <div class="bgcf60 cfff">专享6折价格</div>
+                <a href="#" class="addPruducts">加入购物车</a>
+
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <img src="./imgs/sprices.jpg" alt="">
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10">消耗100乐豆</p>
+                <div class="bgcf60 cfff">专享6折价格</div>
+                <a href="#" class="addPruducts">加入购物车</a>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <img src="./imgs/sprices.jpg" alt="">
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10">消耗100乐豆</p>
+                <div class="bgcf60 cfff">专享6折价格</div>
+                <a href="#" class="addPruducts">加入购物车</a>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <img src="./imgs/sprices.jpg" alt="">
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10">消耗100乐豆</p>
+                <div class="bgcf60 cfff">专享6折价格</div>
+                <a href="#" class="addPruducts">加入购物车</a>
+            </li>
+             <li class="special">
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <img src="./imgs/sprices.jpg" alt="">
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10">消耗100乐豆</p>
+                <div class="bgcf60 cfff">专享6折价格</div>
+                <a href="#" class="addPruducts">加入购物车</a>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <img src="./imgs/sprices.jpg" alt="">
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10">消耗100乐豆</p>
+                <div class="bgcf60 cfff">专享6折价格</div>
+                <a href="#" class="addPruducts">加入购物车</a>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <img src="./imgs/sprices.jpg" alt="">
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10">消耗100乐豆</p>
+                <div class="bgcf60 cfff">专享6折价格</div>
+                <a href="#" class="addPruducts">加入购物车</a>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <img src="./imgs/sprices.jpg" alt="">
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10">消耗100乐豆</p>
+                <div class="bgcf60 cfff">专享6折价格</div>
+                <a href="#" class="addPruducts">加入购物车</a>
+            </li>
+             <li>
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <img src="./imgs/sprices.jpg" alt="">
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10">消耗100乐豆</p>
+                <div class="bgcf60 cfff">专享6折价格</div>
+                <a href="#" class="addPruducts">加入购物车</a>
+            </li>
+             <li class="special">
+                <p>
+                    <img src="./imgs/vipdou.jpg" alt="">
+                </p>
+                <img src="./imgs/sprices.jpg" alt="">
+                <h3 class="c333 mt15">乐购旗舰店</h3>
+                <p class="cred mt10">消耗100乐豆</p>
+                <div class="bgcf60 cfff">专享6折价格</div>
+                <a href="#" class="addPruducts">加入购物车</a>
+            </li>
+           
+        </ul>
+    </div> 
+    <!--3F 会员特权 -->
+    <div id="memberOnly" class="container">
+        <!-- 标题 -->
+        <div class="title mt40 borderb6">
+            <h2 class="font20 fl  cfff bgcf60 ptb2lr10">3F&emsp;会员特权</h2> 
+        </div>
+        <!-- 内容部分 -->
+        <ul class="clearfix">
+            <li>
+                <a href="#"><img src="imgs/vipb1.jpg" alt=""></a>
+                <h3>首汽约车  完美体验！</h3>
+                <p>价值20元现金卡，快来抢</p>
+            </li>
+            <li>
+                <a href="#"><img src="imgs/vipb2.jpg" alt=""></a>
+                <h3>酒仙网  10乐豆抢鸡尾酒！</h3>
+                <p>抢兑鸡尾酒，超值体验</p>
+            </li>
+            <li>
+                <a href="#"><img src="imgs/vipb2.jpg" alt=""></a>
+                <h3>山口山战战记</h3>
+                <p>PLUS特权礼拜  698宝石送不停！</p>
+            </li>
+        </ul>
+    </div>
+     <!--底部banner背景图 -->
+    <div class="bgBanner containe"></div>
+    <!-- 8.尾部 -->
+    <div id="footer" class="mauto clearfix">
+        <div class="bordert6 fliudbox footerfliud">
+            <ul class="container">
+                <li>
+                    <img src="imgs/222_11.png" alt="">
+                </li>
+                <li>
+                    <img src="imgs/222_13.png" alt="">
+                </li>
+                <li>
+                    <img src="imgs/222_15.png" alt="">
+                </li>
+                <li>
+                    <img src="imgs/222_17.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="container fcontain clearfix">
+            <ul class="font16">
+                <li>
+                    <strong class="font18">购物指南</strong>
+                </li>
+                <li>购物流程</li>
+                <li>发票制度</li>
+                <li>账户管理</li>
+                <li>会员优惠</li>
+            </ul>
+            <ul class="font16">
+                <li>
+                    <strong class="font18">支付方式</strong>
+                </li>
+                <li>货到付款</li>
+                <li>网上支付</li>
+                <li>礼品卡支付</li>
+                <li>银行转帐</li>
+            </ul>
+            <ul class="font16">
+                <li>
+                    <strong class="font18">订单服务</strong>
+                </li>
+                <li>订单配送查询</li>
+                <li>订单状态说明</li>
+                <li>自助取消订单</li>
+                <li>自助修改订单</li>
+            </ul>
+            <ul class="font16">
+                <li>
+                    <strong class="font18">退换货</strong>
+                </li>
+                <li>退换货政策</li>
+                <li>自助申请退换货</li>
+                <li>退换货进度查询</li>
+                <li>退款方式和时间</li>
+            </ul>
+            <ul class="font16">
+                <li>
+                    <strong class="font18">商家服务</strong>
+                </li>
+                <li>商家中心</li>
+                <li>运营服务</li>
+                <li>加入尾品汇</li>
+            </ul>
+            <img src="imgs/logo_00.png" alt="" class="flogo">
+        </div>
+        <div class="footerb container">
+            <ul class="clearfix pl40">
+                <li>
+                    <a href="#">公司简介 &emsp;|</a>
+                </li>
+                <li>
+                    <a href="#"> Investor Relations &emsp;|</a>
+                </li>
+                <li>
+                    <a href="#"> 网站联盟 &emsp;| </a>
+                </li>
+                <li>
+                    <a href="#">乐购招商 &emsp;| </a>
+                </li>
+                <li>
+                    <a href="#">机构销售 &emsp;| </a>
+                </li>
+                <li>
+                    <a href="#"> 手机乐购 &emsp;| </a>
+                </li>
+                <li>
+                    <a href="#">官方Blog &emsp;| </a>
+                </li>
+                <li>
+                    <a href="#">热词搜索</a>
+                </li>
+            </ul>
+            <p class="tcenter">Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+
+</html>

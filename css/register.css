@@ -1,0 +1,67 @@
+
+/* 头部logo尺寸设置 */
+#header img{
+    height:70px;
+}
+/* 立即注册部分 */
+.main form{
+    width: 400px;
+    height: 640px;
+    margin:0 auto;
+}
+.main form p{
+    margin-top: 40px;
+    position: relative;
+}
+.main p>label{
+    font-size: 20px;
+    position: absolute;
+    top:10px;
+    left:8px;
+    color: #333;
+}
+.main form p>input{
+    width: 400px;
+	height: 44px;
+    border: solid 1px #d9d9d9;
+    text-indent:110px;
+    font-size: 14px;
+}
+.main form>div{
+    width: 272px;
+	height: 80px;
+    font-family: SimHei;
+    line-height: 80px;
+}
+.main form button{
+    width: 400px;
+    height: 44px;
+    background: #ccc;
+    border:0;
+    outline: 0;
+}
+.main form p span{
+    position: absolute;
+    top: 3px;
+    right:0;
+    background:#d9d9d9;
+    width: 140px;
+    height:40px;
+    text-align: center;
+    line-height:40px;
+    font-size:14px;
+}
+.main form p img{
+    vertical-align: top;
+    float: right;
+}
+/* 修改样式 */
+#myform p label.error{
+    height:20px;
+    width:400px;
+    position: absolute;
+    top:56px;
+    left: 0px;
+    font-size: 12px;
+    color: #f00;
+}
